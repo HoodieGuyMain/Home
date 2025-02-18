@@ -1,0 +1,374 @@
+body {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(mainback.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+*{
+    .container {
+        position: absolute;
+        top: -30px; left: 50%;
+        height: 100px;
+        width: 2000px;
+        transform: translate(-50%, 0%);
+        background: #F7F4F3;
+        border: 15px double #5B2333;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+    }
+    .container h1 {
+        position: absolute;
+        top: -15%; left: 3%;
+        font-family: 'DynaPuff', sans-serif;
+        color: #5B2333;
+        font-size: 60px;
+    }
+    .settings {
+        position: absolute;
+        top: 60%; left: 95%;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+        transform: translate(-50%, -50%);
+        background: #F7F4F3;
+        border: 4px solid #5B2333;
+        color: #5B2333;
+        border-radius: 100px;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 20px;
+        transition: all 0.1s ease;
+    }
+    .settings:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+        cursor: pointer;
+    }
+    .settings:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .tiktok {
+        position: absolute;
+        top: 60%; left: 92%;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+        transform: translate(-50%, -50%);
+        background: #F7F4F3;
+        border: 4px solid #5B2333;
+        color: #5B2333;
+        border-radius: 100px;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 20px;
+        transition: all 0.1s ease;
+    }
+    .tiktok:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+        cursor: pointer;
+    }
+    .tiktok:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .insta {
+        position: absolute;
+        top: 60%; left: 89%;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+        transform: translate(-50%, -50%);
+        background: #F7F4F3;
+        border: 4px solid #5B2333;
+        color: #5B2333;
+        border-radius: 100px;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 20px;
+        transition: all 0.1s ease;
+    }
+    .insta:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+        cursor: pointer;
+    }
+    .insta:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .searchBox {
+        position: absolute;
+        top: 60%; left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .searchBox input {
+        width: 350px;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 4px solid #5B2333;
+        background-color: #F7F4F3;
+        font-family: 'DynaPuff', sans-serif;
+        color: #5b2333;
+        transition: 0.4s ease-in-out;
+    }
+    .searchBox input:focus {
+        width: 450px;
+    }
+}
+*{
+    .wrapper1 {
+        position: absolute;
+        top: 50%; left: 25%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 350px;
+        border-radius: 20px;
+        border: 15px double #5B2333;
+        backdrop-filter: blur(15px);
+        background: #F7F4F3;
+    }
+    .wrapper1 h1 {
+        font-size: 36px;
+        position: absolute;
+        top: 0%; left: 50%;
+        transform: translate(-50%, 10%);
+        color: #5B2333;
+    }
+    .yt {
+        position: absolute;
+        top: 35%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .yt:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .yt:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .nf {
+        position: absolute;
+        top: 57%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .nf:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .nf:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .ha {
+        position: absolute;
+        top: 79%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .ha:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .ha:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .wrapper2 {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 350px;
+        border-radius: 20px;
+        border: 15px double #5B2333;
+        backdrop-filter: blur(15px);
+        background: #F7F4F3;
+    }
+    .wrapper2 h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -7%; left: 52%;
+        transform: translate(-50%, 10%);
+        color: #5B2333;
+    }
+    .sr {
+        position: absolute;
+        top: 35%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .sr:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .sr:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .fm {
+        position: absolute;
+        top: 57%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .fm:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .fm:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .ng {
+        position: absolute;
+        top: 79%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .ng:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .ng:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .wrapper3 {
+        position: absolute;
+        top: 50%; left: 75%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 350px;
+        border-radius: 20px;
+        border: 15px double #5B2333;
+        backdrop-filter: blur(15px);
+        background: #F7F4F3;
+    }
+    .wrapper3 h1 {
+        font-size: 36px;
+        position: absolute;
+        top: 0%; left: 50%;
+        transform: translate(-50%, 10%);
+        color: #5B2333;
+    }
+    .xb {
+        position: absolute;
+        top: 35%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .xb:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .xb:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .dc {
+        position: absolute;
+        top: 57%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .dc:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .dc:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+    .bi {
+        position: absolute;
+        top: 79%; left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 22px;
+        background: #F7F4F3;
+        border-radius: 4px;
+        color: #5B2333;
+        border: 4px solid #5B2333;
+        font-family: 'DynaPuff', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+    .bi:hover {
+        background-color: #5B2333;
+        color: #F7F4F3;
+        transform: scale(1.1) translate(-44.5%, -44.5%);
+    }
+    .bi:active {
+        transform: scale(0.80) translate(-63.5%, -60%);
+    }
+}
