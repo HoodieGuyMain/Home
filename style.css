@@ -131,10 +131,11 @@ body {
         background: #F7F4F3;
     }
     .wrapper1 h1 {
-        font-size: 36px;
+        font-size: 30px;
         position: absolute;
         top: 0%; left: 50%;
         transform: translate(-50%, 10%);
+        font-family: 'DynaPuff', sans-serif;
         color: #5B2333;
     }
     .yt {
@@ -217,8 +218,9 @@ body {
     .wrapper2 h1 {
         font-size: 36px;
         position: absolute;
-        top: -7%; left: 52%;
+        top: -5%; left: 52%;
         transform: translate(-50%, 10%);
+        font-family: 'DynaPuff', sans-serif;
         color: #5B2333;
     }
     .sr {
@@ -301,8 +303,9 @@ body {
     .wrapper3 h1 {
         font-size: 36px;
         position: absolute;
-        top: 0%; left: 50%;
+        top: 3%; left: 50%;
         transform: translate(-50%, 10%);
+        font-family: 'DynaPuff', sans-serif;
         color: #5B2333;
     }
     .xb {
